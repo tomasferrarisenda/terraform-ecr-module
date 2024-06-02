@@ -27,10 +27,9 @@ variable "force_delete" {
 variable "replication" {
   description = "If true, deploy the replication"
   type        = bool
-  default     = false
 }
 
 variable "replication_region" {
   type        = string
-  description = "If true, allows the repository to be deleted even if it contains images."
+  default = "not_set"
 }
