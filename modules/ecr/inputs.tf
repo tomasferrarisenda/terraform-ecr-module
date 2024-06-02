@@ -31,5 +31,5 @@ variable "replication" {
 
 variable "replication_region" {
   type        = string
-  default = "not_set"
+  default = "us-west-2"
 }
