@@ -6,7 +6,7 @@ module hungry_shark_evolution_repository {
   replication = false 
 
   # Optional variables
-  # replication_region = "us-west-2" # Specify if replication is enabled
+  # replication_region = "us-west-2" # Specify region where replication will be deployed if replication is enabled
   # image_tag_mutability = "MUTABLE" # Options are MUTABLE or IMMUTABLE. Default is MUTABLE
   # scan_on_push = true # Default is true
   # force_delete = true # Default is false
